@@ -1268,36 +1268,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package3d>
 </packages3d>
 </library>
-<library name="adafruit" urn="urn:adsk.eagle:library:420">
-<packages>
-<package name="R1206" urn="urn:adsk.eagle:footprint:6239923/1" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
-<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
-<text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
-<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
-<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="R1206" urn="urn:adsk.eagle:package:6240569/1" type="box" library_version="2">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 <library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -1364,42 +1334,49 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.3462" y="0.4572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.7018" y="-0.9652" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="USB-A-S-SILK-FEMALE" urn="urn:adsk.eagle:footprint:37979/1" library_version="1">
-<description>&lt;h3&gt;USB Type 'A' Female Connector - SMT Silk Outline&lt;/h3&gt;
-Shield pins may be grounded.
-&lt;br&gt; tDocu shows plug end. 
+<package name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:footprint:37893/1" library_version="1">
+<description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
 &lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=” https://www.sparkfun.com/datasheets/Prototyping/Connectors/USBFemaleTypeA.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Micro-USB.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;USB_A&lt;/li&gt;
+&lt;ul&gt;&lt;li&gt;USB_MICRO-B&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="6.6957" y1="6.5659" x2="-7.287" y2="6.5659" width="0.127" layer="51"/>
-<wire x1="6.6957" y1="-6.5659" x2="-7.287" y2="-6.5659" width="0.127" layer="51"/>
-<wire x1="-7.287" y1="6.477" x2="-7.287" y2="-6.477" width="0.127" layer="51"/>
-<wire x1="6.7084" y1="6.5024" x2="6.7084" y2="-6.5024" width="0.127" layer="51"/>
-<wire x1="0.46" y1="-5.08" x2="-5.89" y2="-4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-4.445" x2="-5.89" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="-1.27" x2="0.46" y2="-0.635" width="0.127" layer="51"/>
-<wire x1="0.46" y1="5.08" x2="-5.89" y2="4.445" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="4.445" x2="-5.89" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-5.89" y1="1.27" x2="0.46" y2="0.635" width="0.127" layer="51"/>
-<wire x1="-7.366" y1="6.604" x2="0.508" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="6.604" x2="-7.366" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="-7.366" y1="-6.604" x2="0.508" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="-6.604" x2="6.858" y2="-6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="-6.604" x2="6.858" y2="-4.318" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="4.318" x2="6.858" y2="6.604" width="0.2032" layer="21"/>
-<wire x1="6.858" y1="6.604" x2="5.08" y2="6.604" width="0.2032" layer="21"/>
-<pad name="SHLD1" x="3" y="-6.5659" drill="2.3114" rot="R270"/>
-<pad name="SHLD2" x="3" y="6.5659" drill="2.3114" rot="R270"/>
-<smd name="D-" x="7.212" y="1" dx="3" dy="0.9" layer="1"/>
-<smd name="VBUS" x="7.212" y="3.5" dx="3" dy="0.9" layer="1"/>
-<smd name="D+" x="7.212" y="-1" dx="3" dy="0.9" layer="1"/>
-<smd name="GND" x="7.212" y="-3.5" dx="3" dy="0.9" layer="1"/>
-<text x="-6.35" y="6.858" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-6.35" y="-6.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<text x="-4.66" y="5.96" size="0.3048" layer="51">PCB Front</text>
+<text x="-1.27" y="4.699" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-4.699" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<wire x1="-2.15" y1="3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="2.85" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="-2.15" y2="3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="-3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.981959375" y1="3.99288125" x2="2" y2="3.99288125" width="0.3048" layer="21"/>
+<wire x1="2" y1="3.99288125" x2="2" y2="4" width="0.3048" layer="21"/>
+<wire x1="3" y1="4" x2="3" y2="3" width="0.3048" layer="21"/>
+<wire x1="2" y1="-4" x2="3" y2="-4" width="0.3048" layer="21"/>
+<wire x1="3" y1="-4" x2="3" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
+<wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
+<wire x1="-2" y1="7" x2="-2" y2="0" width="0" layer="51"/>
+<smd name="D+" x="2.725" y="0" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="D-" x="2.725" y="0.65" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="VBUS" x="2.725" y="1.3" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="ID" x="2.725" y="-0.65" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="GND" x="2.725" y="-1.3" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="SHIELD1" x="0" y="3.685" dx="1.8" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD3" x="0" y="0" dx="2.5" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD2" x="0" y="-3.685" dx="1.8" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
+<hole x="2.2" y="1.9" drill="0.85"/>
+<hole x="2.2" y="-1.9" drill="0.85"/>
+<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="31"/>
+<rectangle x1="-0.35" y1="-0.75" x2="0.35" y2="0.75" layer="31"/>
+<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="31"/>
+<rectangle x1="-0.85" y1="2.684" x2="0.85" y2="4.684" layer="29"/>
+<rectangle x1="-0.85" y1="-4.684" x2="0.85" y2="-2.684" layer="29"/>
+<rectangle x1="-0.85" y1="-1.35" x2="0.85" y2="1.35" layer="29"/>
 </package>
 </packages>
 <packages3d>
@@ -1417,19 +1394,17 @@ CORTEX_DEBUG
 <packageinstance name="SAMTECH_FTSH-105-01"/>
 </packageinstances>
 </package3d>
-<package3d name="USB-A-S-SILK-FEMALE" urn="urn:adsk.eagle:package:38297/1" type="box" library_version="1">
-<description>USB Type 'A' Female Connector - SMT Silk Outline
-Shield pins may be grounded.
- tDocu shows plug end. 
+<package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:38238/1" type="box" library_version="1">
+<description>USB - microB SMD
 Specifications:
-Pin count:6
+Pin count:5
 
 Datasheet referenced for footprint
 Example device(s):
-USB_A
+USB_MICRO-B
 </description>
 <packageinstances>
-<packageinstance name="USB-A-S-SILK-FEMALE"/>
+<packageinstance name="USB-B-MICRO-SMD"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1802,6 +1777,36 @@ LED</description>
 </package3d>
 </packages3d>
 </library>
+<library name="adafruit" urn="urn:adsk.eagle:library:420">
+<packages>
+<package name="R1206" urn="urn:adsk.eagle:footprint:6239923/1" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="R1206" urn="urn:adsk.eagle:package:6240569/1" type="box" library_version="2">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<packageinstances>
+<packageinstance name="R1206"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2052,21 +2057,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.97" y="34.29" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="17.145" y="34.925" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="1206L110THYR" x="15.875" y="24.765" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.605" y="26.035" size="1.27" layer="25"/>
-<attribute name="PN" value="1206L110THYR" x="-34.925" y="52.705" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="17.272" y="27.178" size="1.27" layer="27" rot="R180"/>
-</element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="SAMTECH_FTSH-105-01" package3d_urn="urn:adsk.eagle:package:38289/1" value="DEBUG Connector" x="26.67" y="6.985" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.2128" y="5.6388" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="27.6352" y="5.2832" size="0.6096" layer="27" font="vector" ratio="20" rot="R90"/>
-</element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-A-S-SILK-FEMALE" package3d_urn="urn:adsk.eagle:package:38297/1" value="Sparkfun USB A" x="2.54" y="21.59" smashed="yes">
-<attribute name="NAME" x="-3.81" y="28.448" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PN" value="PRT-09011" x="24.13" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="PROD_ID" value="CONN-09520" x="24.13" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="SF_ID" value="PRT-09011" x="24.13" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-3.81" y="14.732" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
 <element name="L1" library="Inductor" library_urn="urn:adsk.eagle:library:16378440" package="INDC1608X95N" package3d_urn="urn:adsk.eagle:package:16378473/1" value="6.8nH" x="22.86" y="26.67" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="Inductor" x="6.35" y="48.26" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2174,17 +2167,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="21.59" y="30.48" size="1.27" layer="25"/>
 <attribute name="VALUE" x="22.225" y="27.305" size="1.27" layer="27"/>
 </element>
-<element name="R5" library="varistor" library_urn="urn:adsk.eagle:library:410" package="CT/CN0603" package3d_urn="urn:adsk.eagle:package:30597/1" value="V5.5MLA" x="12.7" y="26.035" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.795" y="24.995" size="1.016" layer="25" rot="R90"/>
-<attribute name="PN" value="V5.5MLA0603" x="-22.86" y="0.635" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="10" x="-22.86" y="0.635" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.7" y="27.535" size="1.016" layer="27" rot="R270"/>
-</element>
-<element name="R6" library="varistor" library_urn="urn:adsk.eagle:library:410" package="CT/CN0603" package3d_urn="urn:adsk.eagle:package:30597/1" value="V5.5MLA" x="12.7" y="17.145" smashed="yes" rot="R270">
-<attribute name="NAME" x="11.795" y="16.105" size="1.016" layer="25" rot="R90"/>
-<attribute name="PN" value="V5.5MLA0603" x="-22.86" y="-15.875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="10" x="-22.86" y="-15.875" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="10.7" y="18.645" size="1.016" layer="27" rot="R270"/>
+<element name="R5" library="varistor" library_urn="urn:adsk.eagle:library:410" package="CT/CN0603" package3d_urn="urn:adsk.eagle:package:30597/1" value="V5.5MLA" x="7.62" y="19.05" smashed="yes" rot="R90">
+<attribute name="NAME" x="8.525" y="20.09" size="1.016" layer="25" rot="R270"/>
+<attribute name="PN" value="V5.5MLA0603" x="43.18" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="10" x="43.18" y="44.45" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="9.62" y="17.55" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="U$5" library="MyLibrary" package="TI_AN043" value="TI_AN043" x="76.2" y="26.67" smashed="yes" rot="R270"/>
 <element name="U1" library="MyLibrary" package="QFN50P700X690X100-49T515N" package3d_urn="urn:adsk.eagle:package:24474680/1" value="CC2642R1FRGZRRGZ0048A" x="36.83" y="26.035" smashed="yes" rot="R180">
@@ -2230,6 +2217,22 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="XTAL-10112" x="54.61" y="43.815" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.022" y="37.465" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="R6" library="varistor" library_urn="urn:adsk.eagle:library:410" package="CT/CN0603" package3d_urn="urn:adsk.eagle:package:30597/1" value="V5.5MLA" x="7.62" y="24.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.62" y="22.63" size="1.016" layer="25" rot="R90"/>
+<attribute name="PN" value="V5.5MLA0603" x="7.62" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="10" x="7.62" y="24.13" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="9.62" y="22.63" size="1.016" layer="27" rot="R90"/>
+</element>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:38238/1" value="" x="2.032" y="21.59" smashed="yes">
+<attribute name="NAME" x="0.762" y="26.289" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="CONN-11752" x="2.032" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="0.762" y="16.891" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+</element>
+<element name="F1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="R1206" package3d_urn="urn:adsk.eagle:package:6240569/1" value="1206L110THYR" x="12.7" y="22.86" smashed="yes">
+<attribute name="NAME" x="11.303" y="24.003" size="1.27" layer="25"/>
+<attribute name="PN" value="1206L110THYR" x="12.7" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.303" y="20.447" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2267,8 +2270,6 @@ design rules under a new name.</description>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
 <contactref element="C8" pad="2"/>
-<contactref element="J3" pad="GND"/>
-<contactref element="R6" pad="1"/>
 <contactref element="C13" pad="2"/>
 <contactref element="C11" pad="2"/>
 <contactref element="U$5" pad="RETURN"/>
@@ -2391,12 +2392,9 @@ design rules under a new name.</description>
 <via x="6.35" y="6.35" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="1.27" y="6.35" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="1.27" y="11.43" extent="1-16" drill="0.508" diameter="0.55"/>
-<via x="1.27" y="16.51" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="1.27" y="41.91" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="1.27" y="36.83" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="1.27" y="31.75" extent="1-16" drill="0.508" diameter="0.55"/>
-<via x="1.27" y="26.67" extent="1-16" drill="0.508" diameter="0.55"/>
-<via x="1.27" y="21.59" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="6.35" y="11.43" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="11.43" y="11.43" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="11.43" y="6.35" extent="1-16" drill="0.508" diameter="0.55"/>
@@ -2472,6 +2470,10 @@ design rules under a new name.</description>
 <via x="38.1" y="27.305" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="38.1" y="24.765" extent="1-16" drill="0.508" diameter="0.55"/>
 <via x="35.56" y="24.765" extent="1-16" drill="0.508" diameter="0.55"/>
+<contactref element="R5" pad="2"/>
+<contactref element="J1" pad="GND"/>
+<wire x1="4.757" y1="20.29" x2="7.38" y2="20.29" width="0.508" layer="1"/>
+<wire x1="7.38" y1="20.29" x2="7.62" y2="20.05" width="0.508" layer="1"/>
 </signal>
 <signal name="RF_P_MCU">
 <contactref element="U1" pad="1"/>
@@ -2608,20 +2610,17 @@ design rules under a new name.</description>
 <contactref element="U3" pad="3"/>
 <contactref element="U3" pad="2"/>
 <contactref element="C9" pad="1"/>
-<contactref element="F1" pad="1"/>
-<polygon width="0.254" layer="1" isolate="0.254" thermals="no">
-<vertex x="18.288" y="23.495"/>
-<vertex x="16.383" y="23.495"/>
-<vertex x="16.383" y="29.972"/>
-<vertex x="13.97" y="32.385"/>
-<vertex x="13.97" y="35.306"/>
-<vertex x="17.399" y="35.306"/>
-<vertex x="17.78" y="34.925"/>
-<vertex x="20.32" y="34.925"/>
-<vertex x="20.32" y="33.655"/>
-<vertex x="17.78" y="33.655"/>
-<vertex x="17.78" y="31.115"/>
-<vertex x="18.288" y="30.607"/>
+<contactref element="F1" pad="2"/>
+<polygon width="0.254" layer="1">
+<vertex x="15.24" y="21.59"/>
+<vertex x="13.081" y="21.59"/>
+<vertex x="13.081" y="35.306"/>
+<vertex x="17.653" y="35.306"/>
+<vertex x="18.288" y="34.671"/>
+<vertex x="20.193" y="34.671"/>
+<vertex x="20.193" y="33.909"/>
+<vertex x="18.288" y="33.909"/>
+<vertex x="15.24" y="30.861"/>
 </polygon>
 </signal>
 <signal name="N$15">
@@ -2737,39 +2736,6 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="26.035" x2="32.23" y2="27.785" width="0.254" layer="1"/>
 <wire x1="32.23" y1="27.785" x2="33.4406" y2="27.785" width="0.254" layer="1"/>
 </signal>
-<signal name="N$4">
-<contactref element="J3" pad="VBUS"/>
-<contactref element="F1" pad="2"/>
-<contactref element="R5" pad="2"/>
-<wire x1="14.453" y1="25.035" x2="14.453" y2="24.765" width="1.27" layer="1"/>
-<wire x1="9.752" y1="25.09" x2="12.645" y2="25.09" width="1.016" layer="1"/>
-<wire x1="12.645" y1="25.09" x2="12.7" y2="25.035" width="1.016" layer="1"/>
-<wire x1="12.7" y1="25.035" x2="14.453" y2="25.035" width="1.016" layer="1"/>
-</signal>
-<signal name="AGND">
-<contactref element="J3" pad="SHLD1"/>
-<contactref element="J3" pad="SHLD2"/>
-<contactref element="R5" pad="1"/>
-<contactref element="R6" pad="2"/>
-<wire x1="12.7" y1="27.035" x2="12.7" y2="29.21" width="0.508" layer="1"/>
-<wire x1="12.7" y1="29.21" x2="12.7" y2="30.48" width="0.508" layer="1"/>
-<wire x1="12.7" y1="30.48" x2="5.54" y2="30.48" width="0.508" layer="1"/>
-<wire x1="5.54" y1="30.48" x2="5.54" y2="28.1559" width="0.508" layer="1"/>
-<wire x1="12.7" y1="16.145" x2="12.7" y2="13.97" width="0.508" layer="1"/>
-<wire x1="12.7" y1="13.97" x2="12.7" y2="12.7" width="0.508" layer="1"/>
-<wire x1="12.7" y1="12.7" x2="5.54" y2="12.7" width="0.508" layer="1"/>
-<wire x1="5.54" y1="12.7" x2="5.54" y2="15.0241" width="0.508" layer="1"/>
-<via x="12.7" y="29.21" extent="1-16" drill="0.508"/>
-<wire x1="12.7" y1="29.21" x2="12.7" y2="13.97" width="0.508" layer="16"/>
-<via x="12.7" y="13.97" extent="1-16" drill="0.508"/>
-<wire x1="5.54" y1="28.1559" x2="5.54" y2="15.0241" width="0.508" layer="16"/>
-</signal>
-<signal name="N$9">
-<contactref element="J3" pad="D-"/>
-</signal>
-<signal name="N$11">
-<contactref element="J3" pad="D+"/>
-</signal>
 <signal name="N$13">
 <contactref element="C12" pad="2"/>
 <contactref element="L4" pad="2"/>
@@ -2854,6 +2820,45 @@ design rules under a new name.</description>
 <vertex x="76.073" y="23.749"/>
 <vertex x="71.501" y="23.749"/>
 </polygon>
+</signal>
+<signal name="N$4">
+<contactref element="R6" pad="1"/>
+<contactref element="J1" pad="VBUS"/>
+<contactref element="F1" pad="1"/>
+<wire x1="11.278" y1="22.86" x2="7.89" y2="22.86" width="0.508" layer="1"/>
+<wire x1="7.89" y1="22.86" x2="7.62" y2="23.13" width="0.508" layer="1"/>
+<wire x1="4.757" y1="22.89" x2="7.62" y2="23.13" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="J1" pad="ID"/>
+</signal>
+<signal name="N$11">
+<contactref element="J1" pad="D+"/>
+</signal>
+<signal name="N$25">
+<contactref element="J1" pad="D-"/>
+</signal>
+<signal name="AGND">
+<contactref element="R5" pad="1"/>
+<contactref element="J1" pad="SHIELD2"/>
+<contactref element="J1" pad="SHIELD1"/>
+<contactref element="J1" pad="SHIELD3"/>
+<contactref element="R6" pad="2"/>
+<wire x1="7.62" y1="25.13" x2="7.62" y2="26.67" width="0.508" layer="1"/>
+<wire x1="7.62" y1="26.67" x2="2.032" y2="26.67" width="0.508" layer="1"/>
+<wire x1="2.032" y1="26.67" x2="2.032" y2="25.275" width="0.508" layer="1"/>
+<wire x1="2.032" y1="25.275" x2="2.032" y2="21.59" width="0.508" layer="1"/>
+<wire x1="2.032" y1="21.59" x2="2.032" y2="17.905" width="0.508" layer="1"/>
+<wire x1="7.62" y1="18.05" x2="7.62" y2="16.51" width="0.508" layer="1"/>
+<wire x1="7.62" y1="16.51" x2="7.493" y2="16.383" width="0.508" layer="1"/>
+<wire x1="7.493" y1="16.383" x2="2.032" y2="16.383" width="0.508" layer="1"/>
+<wire x1="2.032" y1="16.383" x2="2.032" y2="17.905" width="0.508" layer="1"/>
+</signal>
+<signal name="GND1">
+<via x="11.43" y="16.51" extent="1-16" drill="0.508" diameter="0.55"/>
+</signal>
+<signal name="GND2">
+<via x="11.43" y="26.67" extent="1-16" drill="0.508" diameter="0.55"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

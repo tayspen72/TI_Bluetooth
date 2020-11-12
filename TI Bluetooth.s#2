@@ -12076,8 +12076,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="NC19" library="MyLibrary" deviceset="NC" device=""/>
 <part name="NC20" library="MyLibrary" deviceset="NC" device=""/>
 <part name="NC21" library="MyLibrary" deviceset="NC" device=""/>
-<part name="NC22" library="MyLibrary" deviceset="NC" device=""/>
-<part name="NC23" library="MyLibrary" deviceset="NC" device=""/>
 <part name="NC24" library="MyLibrary" deviceset="NC" device=""/>
 <part name="NC25" library="MyLibrary" deviceset="NC" device=""/>
 <part name="NC26" library="MyLibrary" deviceset="NC" device=""/>
@@ -12269,8 +12267,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="NC19" gate="G$1" x="-106.68" y="1061.72" smashed="yes"/>
 <instance part="NC20" gate="G$1" x="-106.68" y="1059.18" smashed="yes"/>
 <instance part="NC21" gate="G$1" x="-106.68" y="1056.64" smashed="yes"/>
-<instance part="NC22" gate="G$1" x="-106.68" y="1054.1" smashed="yes"/>
-<instance part="NC23" gate="G$1" x="-106.68" y="1051.56" smashed="yes"/>
 <instance part="NC24" gate="G$1" x="-106.68" y="1043.94" smashed="yes"/>
 <instance part="NC25" gate="G$1" x="-106.68" y="1041.4" smashed="yes"/>
 <instance part="NC26" gate="G$1" x="-106.68" y="1038.86" smashed="yes"/>
@@ -13167,12 +13163,22 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="R5" gate="G$1" pin="1"/>
 <label x="-248.92" y="1010.92" size="1.778" layer="95" align="bottom-right"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="DIO_15"/>
+<wire x1="-106.68" y1="1051.56" x2="-81.28" y2="1051.56" width="0.1524" layer="91"/>
+<label x="-81.28" y="1051.56" size="1.778" layer="95" align="bottom-right"/>
+</segment>
 </net>
 <net name="STATUS2_LED_MCU" class="0">
 <segment>
 <wire x1="-274.32" y1="1003.3" x2="-248.92" y2="1003.3" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <label x="-248.92" y="1003.3" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="DIO_14"/>
+<wire x1="-106.68" y1="1054.1" x2="-81.28" y2="1054.1" width="0.1524" layer="91"/>
+<label x="-81.28" y="1054.1" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 </nets>
