@@ -14225,6 +14225,24 @@ LED</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-193.04,1092.2,U1,VDDS2,V3P3,,,"/>
+<approved hash="104,1,-193.04,1089.66,U1,VDDS3,V3P3,,,"/>
+<approved hash="104,1,-147.32,1005.84,U1,DCOUPL,N$5,,,"/>
+<approved hash="104,1,-193.04,1071.88,U1,DCDC_SW,DCDC_SW_MCU,,,"/>
+<approved hash="104,1,-193.04,1076.96,U1,VDDS_DCDC,V3P3,,,"/>
+<approved hash="104,1,-193.04,1094.74,U1,VDDS,V3P3,,,"/>
+<approved hash="104,1,-193.04,1082.04,U1,VDDR_RF,VDDR,,,"/>
+<approved hash="104,1,-147.32,1000.76,U1,EGP,GND,,,"/>
+<approved hash="104,1,-279.4,1084.58,J3,VBUS,N$4,,,"/>
+<approved hash="105,1,-254,1059.18,N$8,,,,,"/>
+<approved hash="106,1,-279.4,1082.04,N$9,,,,,"/>
+<approved hash="106,1,-279.4,1079.5,N$11,,,,,"/>
+<approved hash="107,1,-254,1059.18,AGND,N$8,,,,"/>
+<approved hash="107,1,-254,1059.18,AGND,N$8,,,,"/>
+<approved hash="107,1,-254,1059.18,AGND,N$8,,,,"/>
+<approved hash="113,1,-197.589,1019.07,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
