@@ -12768,13 +12768,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-228.6" y1="965.2" x2="-223.52" y2="965.2" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="ANT1" gate="ANT_2.4GHZ" pin="FEED"/>
-<wire x1="-205.74" y1="965.2" x2="-215.9" y2="965.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="POWER_LED" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PG"/>
@@ -12782,13 +12775,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-106.68" y="833.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="-274.32" y1="1018.54" x2="-271.78" y2="1018.54" width="0.1524" layer="91"/>
 <wire x1="-248.92" y1="1018.54" x2="-269.24" y2="1018.54" width="0.1524" layer="91"/>
 <label x="-248.92" y="1018.54" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-269.24" y1="1018.54" x2="-274.32" y2="1018.54" width="0.1524" layer="91"/>
 <wire x1="-269.24" y1="1021.08" x2="-269.24" y2="1018.54" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="-274.32" y1="1018.54" x2="-269.24" y2="1018.54" width="0.1524" layer="91"/>
 <junction x="-269.24" y="1018.54"/>
 </segment>
 </net>
@@ -13155,6 +13147,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-241.3" y1="985.52" x2="-241.3" y2="982.98" width="0.1524" layer="91"/>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="ANT1" gate="ANT_2.4GHZ" pin="FEED"/>
+<wire x1="-205.74" y1="965.2" x2="-215.9" y2="965.2" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="STATUS1_LED_MCU" class="0">
 <segment>
@@ -13184,7 +13181,17 @@ In this library the device names are the same as the pin names of the symbols, t
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,1,-152.4,1087.12,U2,VDDS2,V3P3,,,"/>
+<approved hash="104,1,-152.4,1084.58,U2,VDDS3,V3P3,,,"/>
+<approved hash="104,1,-106.68,1000.76,U2,DCOUPL,N$5,,,"/>
+<approved hash="104,1,-152.4,1066.8,U2,DCDC_SW,DCDC_SW_MCU,,,"/>
+<approved hash="104,1,-152.4,1071.88,U2,VDDS_DCDC,V3P3,,,"/>
+<approved hash="104,1,-152.4,1089.66,U2,VDDS,V3P3,,,"/>
+<approved hash="104,1,-152.4,1076.96,U2,VDDR_RF,VDDR,,,"/>
+<approved hash="104,1,-106.68,995.68,U2,EGP,GND,,,"/>
 <approved hash="113,1,-197.589,1019.07,FRAME1,,,,,"/>
+<approved hash="113,1,-197.589,833.651,FRAME2,,,,,"/>
+<approved hash="115,1,-210.82,965.2,GND,,,,,"/>
 </errors>
 </schematic>
 </drawing>
