@@ -253,48 +253,49 @@
 <smd name="FEED" x="2.55" y="-0.25" dx="0.5" dy="0.5" layer="1"/>
 </package>
 <package name="USB-C31-S-RA-CS1-BK-TR">
-<smd name="A1" x="7.75" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A2" x="7.25" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A3" x="6.75" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A4" x="6.25" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A5" x="5.75" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A6" x="5.25" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A7" x="4.75" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A8" x="4.25" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A9" x="3.75" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A10" x="3.25" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A11" x="2.75" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<smd name="A12" x="2.25" y="0.65" dx="0.7" dy="0.35" layer="1" rot="R270"/>
-<pad name="B11" x="7.4" y="2.46" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B10" x="6.6" y="2.46" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B8" x="5.8" y="2.46" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B5" x="4.2" y="2.46" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B3" x="3.4" y="2.46" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B2" x="2.6" y="2.46" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B9" x="6.2" y="1.76" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B7" x="5.4" y="1.76" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B6" x="4.6" y="1.76" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B4" x="3.8" y="1.76" drill="0.4" diameter="0.6096" rot="R180"/>
-<pad name="B12" x="8.05" y="1.76" drill="0.4" diameter="0.7" shape="long" rot="R180"/>
-<wire x1="8.5" y1="1.76" x2="7.6" y2="1.76" width="0.4" layer="46"/>
-<wire x1="2.4" y1="1.76" x2="1.5" y2="1.76" width="0.4" layer="46"/>
-<pad name="B1" x="1.95" y="1.76" drill="0.4" diameter="0.7" shape="long" rot="R180"/>
-<pad name="AGND@1" x="9.5" y="0.96" drill="0.5" diameter="1" shape="long" rot="R270"/>
-<wire x1="9.5" y1="0.41" x2="9.5" y2="1.51" width="0.5" layer="46"/>
-<pad name="AGND@3" x="0.5" y="0.96" drill="0.5" diameter="1" shape="long" rot="R270"/>
-<wire x1="0.5" y1="0.41" x2="0.5" y2="1.51" width="0.5" layer="46"/>
-<pad name="AGND@2" x="9.5" y="6.56" drill="0.5" diameter="1" shape="long" rot="R270"/>
-<wire x1="9.5" y1="6.01" x2="9.5" y2="7.11" width="0.5" layer="46"/>
-<pad name="AGND@4" x="0.5" y="6.56" drill="0.5" diameter="1" shape="long" rot="R270"/>
-<wire x1="0.5" y1="6.01" x2="0.5" y2="7.11" width="0.5" layer="46"/>
-<hole x="8.725" y="2.46" drill="0.65"/>
-<hole x="1.275" y="2.46" drill="0.65"/>
-<wire x1="9.8" y1="0.1" x2="0.2" y2="0.1" width="0.2" layer="25"/>
-<wire x1="0.2" y1="0.1" x2="0.2" y2="10.1" width="0.2" layer="25"/>
-<wire x1="0.2" y1="10.1" x2="9.8" y2="10.1" width="0.2" layer="25"/>
-<wire x1="9.8" y1="10.1" x2="9.8" y2="0.1" width="0.2" layer="25"/>
-<text x="0" y="-2" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="-4" size="1.27" layer="25">&gt;VALUE</text>
+<smd name="A1" x="2.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A2" x="2.25" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A3" x="1.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A4" x="1.25" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A5" x="0.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A6" x="0.25" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A7" x="-0.25" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A8" x="-0.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A9" x="-1.25" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A10" x="-1.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A11" x="-2.25" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<smd name="A12" x="-2.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
+<pad name="B11" x="2.4" y="2.16" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B10" x="1.6" y="2.16" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B8" x="0.8" y="2.16" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B5" x="-0.8" y="2.16" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B3" x="-1.6" y="2.16" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B2" x="-2.4" y="2.16" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B9" x="1.2" y="1.46" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B7" x="0.4" y="1.46" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B6" x="-0.4" y="1.46" drill="0.4" diameter="0.6096" rot="R180"/>
+<pad name="B4" x="-1.2" y="1.46" drill="0.4" diameter="0.6096" rot="R180"/>
+<wire x1="-2.8" y1="1.46" x2="-3.3" y2="1.46" width="0.4" layer="46"/>
+<pad name="B1" x="-3.05" y="1.46" drill="0.4" diameter="0.525" shape="long" rot="R180"/>
+<pad name="AGND@1" x="4.5" y="0.66" drill="0.5" diameter="1" shape="long" rot="R270"/>
+<wire x1="4.5" y1="0.11" x2="4.5" y2="1.21" width="0.5" layer="46"/>
+<pad name="AGND@3" x="-4.5" y="0.66" drill="0.5" diameter="1" shape="long" rot="R270"/>
+<wire x1="-4.5" y1="0.11" x2="-4.5" y2="1.21" width="0.5" layer="46"/>
+<pad name="AGND@2" x="4.5" y="6.26" drill="0.5" diameter="1" shape="long" rot="R270"/>
+<wire x1="4.5" y1="5.71" x2="4.5" y2="6.81" width="0.5" layer="46"/>
+<pad name="AGND@4" x="-4.5" y="6.26" drill="0.5" diameter="1" shape="long" rot="R270"/>
+<wire x1="-4.5" y1="5.71" x2="-4.5" y2="6.81" width="0.5" layer="46"/>
+<hole x="3.725" y="2.16" drill="0.65"/>
+<hole x="-3.725" y="2.25" drill="0.8"/>
+<wire x1="4.8" y1="-0.2" x2="-4.8" y2="-0.2" width="0.2" layer="25"/>
+<wire x1="-4.8" y1="-0.2" x2="-4.8" y2="9.8" width="0.2" layer="25"/>
+<wire x1="-4.8" y1="9.8" x2="4.8" y2="9.8" width="0.2" layer="25"/>
+<wire x1="4.8" y1="9.8" x2="4.8" y2="-0.2" width="0.2" layer="25"/>
+<text x="-5" y="-2.3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5" y="-4.3" size="1.27" layer="25">&gt;VALUE</text>
+<wire x1="3.3" y1="1.46" x2="2.8" y2="1.46" width="0.4" layer="46"/>
+<pad name="B12" x="3.05" y="1.46" drill="0.4" diameter="0.525" shape="long" rot="R180"/>
+<wire x1="-3.89" y1="2.25" x2="-3.58" y2="2.25" width="0.8128" layer="46"/>
 </package>
 <package name="SOP65P490X110-8N" urn="urn:adsk.eagle:footprint:24409317/1">
 <description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 2.90 X 1.10 mm body

@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-11-15T06:52:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "TI Bluetooth"
+        },
+        "Owner": "Taylor Spencer <tayspen72@gmail.com>",
+        "Size": {
+            "X": 73.66,
+            "Y": 53.34
+        }
+    }
+}
