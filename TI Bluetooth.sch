@@ -215,42 +215,72 @@
 <text x="0" y="-4.4996" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="TI_AN043">
-<wire x1="0.9" y1="-0.5" x2="0" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="0" y1="-0.5" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0" y2="4.9" width="0.127" layer="21"/>
-<wire x1="0" y1="4.9" x2="5" y2="4.9" width="0.127" layer="21"/>
-<wire x1="0.9" y1="-0.5" x2="0.9" y2="0" width="0.127" layer="21"/>
-<wire x1="0.9" y1="0" x2="0.9" y2="4.4" width="0.127" layer="21"/>
-<wire x1="0.9" y1="4.4" x2="2.3" y2="4.4" width="0.127" layer="21"/>
-<wire x1="2.3" y1="4.4" x2="2.3" y2="0" width="0.127" layer="21"/>
-<wire x1="2.3" y1="0" x2="2.3" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="2.3" y1="-0.5" x2="2.8" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="2.8" y1="-0.5" x2="2.8" y2="0" width="0.127" layer="21"/>
-<wire x1="2.8" y1="0" x2="2.8" y2="4.4" width="0.127" layer="21"/>
-<wire x1="2.8" y1="4.4" x2="4.5" y2="4.4" width="0.127" layer="21"/>
-<wire x1="4.5" y1="4.4" x2="4.5" y2="2.14" width="0.127" layer="21"/>
-<wire x1="4.5" y1="2.14" x2="6.5" y2="2.14" width="0.127" layer="21"/>
-<wire x1="6.5" y1="2.14" x2="6.5" y2="4.4" width="0.127" layer="21"/>
-<wire x1="5" y1="4.9" x2="5" y2="2.64" width="0.127" layer="21"/>
-<wire x1="5" y1="2.64" x2="6" y2="2.64" width="0.127" layer="21"/>
-<wire x1="6" y1="2.64" x2="6" y2="4.9" width="0.127" layer="21"/>
-<wire x1="6" y1="4.9" x2="8.7" y2="4.9" width="0.127" layer="21"/>
-<wire x1="8.7" y1="4.9" x2="8.7" y2="2.64" width="0.127" layer="21"/>
-<wire x1="8.7" y1="2.64" x2="10.7" y2="2.64" width="0.127" layer="21"/>
-<wire x1="10.7" y1="2.64" x2="10.7" y2="4.9" width="0.127" layer="21"/>
-<wire x1="10.7" y1="4.9" x2="13.4" y2="4.9" width="0.127" layer="21"/>
-<wire x1="13.4" y1="4.9" x2="13.4" y2="0.46" width="0.127" layer="21"/>
-<wire x1="13.4" y1="0.46" x2="12.9" y2="0.46" width="0.127" layer="21"/>
-<wire x1="12.9" y1="0.46" x2="12.9" y2="4.4" width="0.127" layer="21"/>
-<wire x1="12.9" y1="4.4" x2="11.2" y2="4.4" width="0.127" layer="21"/>
-<wire x1="11.2" y1="4.4" x2="11.2" y2="2.14" width="0.127" layer="21"/>
-<wire x1="11.2" y1="2.14" x2="8.2" y2="2.14" width="0.127" layer="21"/>
-<wire x1="8.2" y1="2.14" x2="8.2" y2="4.4" width="0.127" layer="21"/>
-<wire x1="8.2" y1="4.4" x2="6.5" y2="4.4" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0.9" y2="0" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="0" y2="5.4" width="0.127" layer="21"/>
+<wire x1="0" y1="5.4" x2="5" y2="5.4" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0" x2="0.9" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0.5" x2="0.9" y2="4.9" width="0.127" layer="21"/>
+<wire x1="0.9" y1="4.9" x2="2.3" y2="4.9" width="0.127" layer="21"/>
+<wire x1="2.3" y1="4.9" x2="2.3" y2="0.5" width="0.127" layer="21"/>
+<wire x1="2.3" y1="0.5" x2="2.3" y2="0" width="0.127" layer="21"/>
 <wire x1="2.3" y1="0" x2="2.8" y2="0" width="0.127" layer="21"/>
-<smd name="RETURN" x="0.45" y="-0.25" dx="0.9" dy="0.5" layer="1"/>
-<smd name="FEED" x="2.55" y="-0.25" dx="0.5" dy="0.5" layer="1"/>
+<wire x1="2.8" y1="0" x2="2.8" y2="0.5" width="0.127" layer="21"/>
+<wire x1="2.8" y1="0.5" x2="2.8" y2="4.9" width="0.127" layer="21"/>
+<wire x1="2.8" y1="4.9" x2="4.5" y2="4.9" width="0.127" layer="21"/>
+<wire x1="4.5" y1="4.9" x2="4.5" y2="2.26" width="0.127" layer="21"/>
+<wire x1="4.5" y1="2.26" x2="6.5" y2="2.26" width="0.127" layer="21"/>
+<wire x1="6.5" y1="2.26" x2="6.5" y2="4.9" width="0.127" layer="21"/>
+<wire x1="5" y1="5.4" x2="5" y2="2.86" width="0.127" layer="21"/>
+<wire x1="5" y1="2.86" x2="6" y2="2.86" width="0.127" layer="21"/>
+<wire x1="6" y1="2.86" x2="6" y2="5.4" width="0.127" layer="21"/>
+<wire x1="6" y1="5.4" x2="8.7" y2="5.4" width="0.127" layer="21"/>
+<wire x1="8.7" y1="5.4" x2="8.7" y2="2.86" width="0.127" layer="21"/>
+<wire x1="8.7" y1="2.86" x2="10.7" y2="2.86" width="0.127" layer="21"/>
+<wire x1="10.7" y1="2.86" x2="10.7" y2="5.4" width="0.127" layer="21"/>
+<wire x1="10.7" y1="5.4" x2="13.4" y2="5.4" width="0.127" layer="21"/>
+<wire x1="13.4" y1="5.4" x2="13.4" y2="0.96" width="0.127" layer="21"/>
+<wire x1="13.4" y1="0.96" x2="12.9" y2="0.96" width="0.127" layer="21"/>
+<wire x1="12.9" y1="0.96" x2="12.9" y2="4.9" width="0.127" layer="21"/>
+<wire x1="12.9" y1="4.9" x2="11.2" y2="4.9" width="0.127" layer="21"/>
+<wire x1="11.2" y1="4.9" x2="11.2" y2="2.26" width="0.127" layer="21"/>
+<wire x1="11.2" y1="2.26" x2="8.2" y2="2.26" width="0.127" layer="21"/>
+<wire x1="8.2" y1="2.26" x2="8.2" y2="4.9" width="0.127" layer="21"/>
+<wire x1="8.2" y1="4.9" x2="6.5" y2="4.9" width="0.127" layer="21"/>
+<wire x1="0" y1="0.5" x2="0.9" y2="0.5" width="0.127" layer="21"/>
+<wire x1="2.3" y1="0.5" x2="2.8" y2="0.5" width="0.127" layer="21"/>
+<smd name="RETURN" x="0.45" y="0.25" dx="0.9" dy="0.5" layer="1"/>
+<smd name="FEED" x="2.55" y="0.25" dx="0.5" dy="0.5" layer="1"/>
+<polygon width="0.1" layer="1">
+<vertex x="0.05" y="0.1"/>
+<vertex x="0.05" y="5.35"/>
+<vertex x="4.95" y="5.35"/>
+<vertex x="4.95" y="2.81"/>
+<vertex x="6.05" y="2.81"/>
+<vertex x="6.05" y="5.35"/>
+<vertex x="8.65" y="5.35"/>
+<vertex x="8.65" y="2.81"/>
+<vertex x="10.75" y="2.81"/>
+<vertex x="10.75" y="5.35"/>
+<vertex x="13.35" y="5.35"/>
+<vertex x="13.35" y="1"/>
+<vertex x="12.95" y="1"/>
+<vertex x="12.95" y="4.95"/>
+<vertex x="11.15" y="4.95"/>
+<vertex x="11.15" y="2.31"/>
+<vertex x="8.25" y="2.31"/>
+<vertex x="8.25" y="4.95"/>
+<vertex x="6.45" y="4.95"/>
+<vertex x="6.45" y="2.31"/>
+<vertex x="4.55" y="2.31"/>
+<vertex x="4.55" y="4.95"/>
+<vertex x="2.75" y="4.95"/>
+<vertex x="2.75" y="0.1"/>
+<vertex x="2.35" y="0.1"/>
+<vertex x="2.35" y="4.95"/>
+<vertex x="0.85" y="4.95"/>
+<vertex x="0.85" y="0.1"/>
+</polygon>
 </package>
 <package name="USB-C31-S-RA-CS1-BK-TR">
 <smd name="A1" x="2.75" y="0.35" dx="0.7" dy="0.35" layer="1" rot="R270"/>
@@ -285,8 +315,6 @@
 <wire x1="4.5" y1="5.71" x2="4.5" y2="6.81" width="0.5" layer="46"/>
 <pad name="AGND@4" x="-4.5" y="6.26" drill="0.5" diameter="1" shape="long" rot="R270"/>
 <wire x1="-4.5" y1="5.71" x2="-4.5" y2="6.81" width="0.5" layer="46"/>
-<hole x="3.725" y="2.16" drill="0.65"/>
-<hole x="-3.725" y="2.25" drill="0.8"/>
 <wire x1="4.8" y1="-0.2" x2="-4.8" y2="-0.2" width="0.2" layer="25"/>
 <wire x1="-4.8" y1="-0.2" x2="-4.8" y2="9.8" width="0.2" layer="25"/>
 <wire x1="-4.8" y1="9.8" x2="4.8" y2="9.8" width="0.2" layer="25"/>
@@ -295,7 +323,9 @@
 <text x="-5" y="-4.3" size="1.27" layer="25">&gt;VALUE</text>
 <wire x1="3.3" y1="1.46" x2="2.8" y2="1.46" width="0.4" layer="46"/>
 <pad name="B12" x="3.05" y="1.46" drill="0.4" diameter="0.525" shape="long" rot="R180"/>
-<wire x1="-3.89" y1="2.25" x2="-3.58" y2="2.25" width="0.8128" layer="46"/>
+<wire x1="-3.88" y1="2.16" x2="-3.57" y2="2.16" width="0.64" layer="46"/>
+<pad name="MOUNT@2" x="3.725" y="2.16" drill="0.64" diameter="0.7"/>
+<pad name="MOUNT@1" x="-3.725" y="2.16" drill="0.64" diameter="0.7"/>
 </package>
 <package name="SOP65P490X110-8N" urn="urn:adsk.eagle:footprint:24409317/1">
 <description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 2.90 X 1.10 mm body

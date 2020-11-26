@@ -285,8 +285,6 @@
 <wire x1="4.5" y1="5.71" x2="4.5" y2="6.81" width="0.5" layer="46"/>
 <pad name="AGND@4" x="-4.5" y="6.26" drill="0.5" diameter="1" shape="long" rot="R270"/>
 <wire x1="-4.5" y1="5.71" x2="-4.5" y2="6.81" width="0.5" layer="46"/>
-<hole x="3.725" y="2.16" drill="0.65"/>
-<hole x="-3.725" y="2.16" drill="0.65"/>
 <wire x1="4.8" y1="-0.2" x2="-4.8" y2="-0.2" width="0.2" layer="25"/>
 <wire x1="-4.8" y1="-0.2" x2="-4.8" y2="9.8" width="0.2" layer="25"/>
 <wire x1="-4.8" y1="9.8" x2="4.8" y2="9.8" width="0.2" layer="25"/>
@@ -296,6 +294,8 @@
 <wire x1="3.3" y1="1.46" x2="2.8" y2="1.46" width="0.4" layer="46"/>
 <pad name="B12" x="3.05" y="1.46" drill="0.4" diameter="0.525" shape="long" rot="R180"/>
 <wire x1="-3.88" y1="2.16" x2="-3.57" y2="2.16" width="0.64" layer="46"/>
+<pad name="MOUNT@2" x="3.725" y="2.16" drill="0.64" diameter="0.7"/>
+<pad name="MOUNT@1" x="-3.725" y="2.16" drill="0.64" diameter="0.7"/>
 </package>
 <package name="SOP65P490X110-8N" urn="urn:adsk.eagle:footprint:24409317/1">
 <description>8-SOP, 0.65 mm pitch, 4.90 mm span, 3.00 X 2.90 X 1.10 mm body
