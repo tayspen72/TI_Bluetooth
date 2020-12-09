@@ -2999,11 +2999,11 @@ design rules under a new name.</description>
 <via x="45.72" y="46.99" extent="1-16" drill="0.35"/>
 <via x="45.72" y="41.91" extent="1-16" drill="0.35"/>
 <via x="38.1" y="41.91" extent="1-16" drill="0.35"/>
-<polygon width="0.1" layer="1">
-<vertex x="65.5" y="19.025"/>
-<vertex x="70.85" y="19.05"/>
+<polygon width="0.1" layer="1" thermals="no">
+<vertex x="65.55" y="19"/>
+<vertex x="70.85" y="19"/>
 <vertex x="70.85" y="18.2"/>
-<vertex x="65.5" y="18.2"/>
+<vertex x="65.55" y="18.2"/>
 </polygon>
 <wire x1="65.72911875" y1="16.4995" x2="65.735" y2="16.5" width="0" layer="19" extent="1-1"/>
 <wire x1="64.77" y1="15.24" x2="64.35" y2="16.51" width="0" layer="19" extent="1-1"/>
